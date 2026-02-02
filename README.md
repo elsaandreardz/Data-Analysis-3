@@ -1,37 +1,22 @@
-# Airbnb Price Prediction - CDMX
+# Data Analysis 3 — Course Assignments
 
-## Setup Instructions
+This repository contains assignments and supporting materials developed during the **Data Analysis 3** course of the **Business Analytics** program at **Central European University (CEU)**.
 
-### 1. Install Python
-Make sure you have Python 3.8+ installed.
+The purpose of this repository is to document the analytical workflow, code, and results produced throughout the course.
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt --break-system-packages
-```
+---
 
-### 3. Run the Analysis
-Data recovered from: [Inside Airbnb](https://insideairbnb.com/get-the-data/)
+## 📁 Repository Structure
 
-
-
-### Expected Runtime
-- Data loading: 10 seconds
-- OLS: 5 seconds
-- LASSO: 1-2 mins
-- Random Forest: 1-4 mins
-- GBM: 1-4 mins
-- XGBoost: 2-4 mins
-
-### Structure
-```
-Data-Analysis-3/
-│
-├── requirements.txt          
-├── README.md  
-├──DA3_Assignment_1.ipynb                       
-│
-├── raw_data/                   
-│   ├── listings_cdmx_Q2.csv.gz
-    ├── listings_cdmx_Q3.csv.gz
-    ├── listings_San_Mateo_Q3.csv.gz
+```text
+.
+├── data-analysis-3
+    └── README.md 
+    ├── Assignment_1 
+        ├── requirements.txt          
+        ├── README.md  
+        ├── DA3_Assignment_1.ipynb                       
+        ├── raw_data/                   
+        ├── listings_cdmx_Q2.csv.gz
+            ├── listings_cdmx_Q3.csv.gz
+            ├── listings_San_Mateo_Q3.csv.gz
